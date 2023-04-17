@@ -1,0 +1,25 @@
+.card{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    left: 10px;
+    top: 10px;
+    border-color: white;
+    text-align: center;
+    
+     
+}
+
+#container{
+    background-color: black;
+}
+#carouselExampleCaptions{
+    top: 10%;
+    width: 50%;
+    translate: 50%;
+    position: relative;
+}
+
+
+
+
