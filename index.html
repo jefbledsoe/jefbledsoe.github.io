@@ -21,31 +21,40 @@
   </div>
 
   <!-- navbar row -->
-  <div class="row">
+  <div id="row1" class="row">
     <!-- Nav bar block -->
-    <ul class="nav z-3">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Overview Video</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://jefbledsoe.github.io/pacmanProject/">PacMan Project</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://jefbledsoe.github.io/RealTimeBusTrackerProject/">Map Project</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://jefbledsoe.github.io/movingEyesProject/">Eyes Project</a>
-      </li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-3" href="#">Jeff's work thus far</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Overview Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://jefbledsoe.github.io/pacmanProject/">PacMan Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://jefbledsoe.github.io/RealTimeBusTrackerProject/">Map Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://jefbledsoe.github.io/movingEyesProject/">Eyes Project</a>
+            </li>
 
-    </ul>
-
+          </ul>
+        </div>
+      </div>
   </div>
 
   <!-- main content row -->
-  <div class="row justify-content-center">
-    <div class="col-sm-2 ">
+  <div id="row2" class="row justify-content-center">
+    <div id="maincol1" class="col-sm-2">
       <!-- Profile Card -->
-      <div class="card mb-3">
+      <div id="profileCard" class="card mx-auto mt-2">
         <div class="card-body">
           <h5 class="card-title">Jeff Bledsoe</h5>
           <p class="card-text">Full Stack Web Developer</p>
@@ -64,8 +73,8 @@
     </div>
 
     <!-- Project carousel -->
-    <div class="col-lg-8 ">
-      <div id="carouselExampleCaptions" class="carousel slide flex-grow mb-3" data-bs-ride="carousel">
+    <div class="col-lg ">
+      <div id="carouselExampleCaptions" class="carousel slide grow m-2" data-bs-ride="carousel">
         <!-- bottom selection indicators -->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -77,24 +86,24 @@
         </div>
         <div class="carousel-inner"><!-- moving eyes caousel item -->
           <div class="carousel-item active">
-            <a href="https://jefbledsoe.github.io/movingEyesProject/"><img src="./movingeyesSnip.png"
-                alt="./projectDefaultIcon.jpg" class="d-block w-100"></a>
+            <a href="https://jefbledsoe.github.io/movingEyesProject/" style="height: 100%; width: 100%;"><img
+                src="./movingeyesSnip.png" alt="./projectDefaultIcon.jpg" class="d-block w-100"></a>
             <div class="carousel-caption d-none d-md-block">
               <h5>Moving Eyes Project</h5>
               <p>Demostrates CSS manipulation and grids within a webpage</p>
             </div>
           </div>
           <div class="carousel-item"><!-- pacman caousel item -->
-            <a href="https://jefbledsoe.github.io/movingEyesProject/"><img src="./pacmanSnip.png"
-                alt="./projectDefaultIcon.jpg" class="d-block w-100"></a>
+            <a href="https://jefbledsoe.github.io/pacmanProject/" style="height: 100%; width: 100%;"><img
+                src="./pacmanSnip.png" alt="./projectDefaultIcon.jpg" class="d-block w-100"></a>
             <div class="carousel-caption d-none d-md-block">
               <h5>PacMan Simulation Project</h5>
               <p>Demonstrates understating of html screen sizes, user input keys and array manipulation</p>
             </div>
           </div>
           <div class="carousel-item"><!-- real time map caousel item -->
-            <a href="https://jefbledsoe.github.io/RealTimeBusTracker/"><img src="./realtimemapSnip.png"
-                alt="./projectDefaultIcon.jpg" class="d-block w-100"></a>
+            <a href="https://jefbledsoe.github.io/RealTimeBusTrackerProject/" style="height: 100%; width: 100%;"><img
+                src="./realtimemapSnip.png" alt="./projectDefaultIcon.jpg" class="d-block w-100"></a>
             <div class="carousel-caption d-none d-md-block">
               <h5>Real Time Map Project</h5>
               <p style="color: black;">Demonstration of async functions, API key use, fetching and manipulating live
@@ -119,35 +128,38 @@
     </div>
 
     <!-- Skils card -->
-    <div id="skillscard" class="col-sm-2 justify-content-center mb-3">
-      <!-- Profile Card -->
-      <div >        
-        <img id="jslogo" src="./jsLogo.jpg" alt="./blankProfilePic.jpg" style="width: 90px; height: 90px;">
-        <img id="htmllogo" src="./htmlLogo.jpg" alt="./blankProfilePic.jpg" style="width: 90px; height: 90px;">
-        <img id="csslogo" src="./cssLogo.jpg" alt="./blankProfilePic.jpg" style="width: 90px; height: 90px;">
-        <img id="csharplogo" src="./cSharpLogo.png" alt="./blankProfilePic.jpg" style="width: 90px; height: 90px;">
+    <div id="skillscard" class="col-sm-2  m-2">
+      <div class=" row justify-content-center flex-block m-3"><img id="jslogo" class="rounded" src="./jsLogo.jpg"
+          alt="./blankProfilePic.jpg" style="width: 90px; height: 90px;">
       </div>
+      <div class=" row justify-content-center flex-block m-3"><img id="htmllogo" class="rounded" src="./htmlLogo.jpg"
+          alt="./blankProfilePic.jpg" style="width: 90px; height: 90px;">
+      </div>
+      <div class=" row justify-content-center flex-block m-3"><img id="csslogo" class="rounded" src="./cssLogo.jpg"
+          alt="./blankProfilePic.jpg" style="width: 90px; height: 90px;">
+      </div>
+      <div class=" row justify-content-center flex-block m-3"><img id="csharplogo" class="rounded"
+          src="./cSharpLogo.png" alt="./blankProfilePic.jpg" style="width: 90px; height: 90px;"></div>
     </div>
-
 
   </div>
 
-  <!-- bottom buffer row -->
-  <div class="row"></div>
+  <div id="row3" class="row"></div>
+  <div id="row4" class="row"></div>
 
-    
 
-    <!-- bootstrap function references -->
+  <!-- bootstrap function references -->
   <div>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+    <script src="./logic.js"></script>
   </div>
 
 
