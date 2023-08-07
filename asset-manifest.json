@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c9ce048.css",
+    "main.css": "/static/css/main.742733f3.css",
     "main.js": "/static/js/main.92373d0d.js",
     "static/js/787.f367fdd5.chunk.js": "/static/js/787.f367fdd5.chunk.js",
     "static/media/UpsLogo.png": "/static/media/UpsLogo.dbe67394f3ca7ee50ba4.png",
@@ -18,12 +18,12 @@
     "static/media/backEnd.png": "/static/media/backEnd.21e3d49eac3b645f15e3.png",
     "static/media/devOpsEmpty.png": "/static/media/devOpsEmpty.bd3381d55290e32c8201.png",
     "index.html": "/index.html",
-    "main.4c9ce048.css.map": "/static/css/main.4c9ce048.css.map",
+    "main.742733f3.css.map": "/static/css/main.742733f3.css.map",
     "main.92373d0d.js.map": "/static/js/main.92373d0d.js.map",
     "787.f367fdd5.chunk.js.map": "/static/js/787.f367fdd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c9ce048.css",
+    "static/css/main.742733f3.css",
     "static/js/main.92373d0d.js"
   ]
 }
