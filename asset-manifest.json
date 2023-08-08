@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d996ccb.css",
-    "main.js": "/static/js/main.1f0c3b02.js",
+    "main.css": "/static/css/main.4d1fd10b.css",
+    "main.js": "/static/js/main.b9f29e08.js",
     "static/js/787.f367fdd5.chunk.js": "/static/js/787.f367fdd5.chunk.js",
     "static/media/UpsLogo.png": "/static/media/UpsLogo.dbe67394f3ca7ee50ba4.png",
     "static/media/weatherAlertApp.png": "/static/media/weatherAlertApp.7d8e4885f2988ceb10b3.png",
@@ -13,17 +13,17 @@
     "static/media/humanhand.png": "/static/media/humanhand.277f2cbdbc0c22d49d02.png",
     "static/media/GitHubLogo.png": "/static/media/GitHubLogo.a077b33ef756939cc21c.png",
     "static/media/index-pointing-at-the-viewer_1faf5.png": "/static/media/index-pointing-at-the-viewer_1faf5.ee734caff36fb670c9b0.png",
-    "static/media/mycircuit.png": "/static/media/mycircuit.28c9272738897c42a4ea.png",
     "static/media/movingEyesApp.png": "/static/media/movingEyesApp.e62d600a1ee33463a830.png",
+    "static/media/mycircuit.png": "/static/media/mycircuit.eaec6798eb15b1a02df2.png",
     "static/media/backEnd.png": "/static/media/backEnd.21e3d49eac3b645f15e3.png",
-    "static/media/devOpsEmpty.png": "/static/media/devOpsEmpty.bd3381d55290e32c8201.png",
+    "static/media/devOps.png": "/static/media/devOps.be71dc4d37beb753263f.png",
     "index.html": "/index.html",
-    "main.2d996ccb.css.map": "/static/css/main.2d996ccb.css.map",
-    "main.1f0c3b02.js.map": "/static/js/main.1f0c3b02.js.map",
+    "main.4d1fd10b.css.map": "/static/css/main.4d1fd10b.css.map",
+    "main.b9f29e08.js.map": "/static/js/main.b9f29e08.js.map",
     "787.f367fdd5.chunk.js.map": "/static/js/787.f367fdd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d996ccb.css",
-    "static/js/main.1f0c3b02.js"
+    "static/css/main.4d1fd10b.css",
+    "static/js/main.b9f29e08.js"
   ]
 }
