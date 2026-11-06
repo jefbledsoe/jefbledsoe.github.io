@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Jeff Bledsoe",
+  "name": "Jeff Bledsoe | Operations & Technology Leader",
   "icons": [
     {
       "src": "me.ico",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#122565",
+  "background_color": "#122565"
 }

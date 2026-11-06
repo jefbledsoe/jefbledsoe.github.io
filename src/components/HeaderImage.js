@@ -1,44 +1,36 @@
-import React, { useEffect } from "react";
-import {
-  Card,
-  Col,
-  ListGroup,
-  Button,
-  Ratio,
-  Row,
-  Image,
-  Collapse,
-  ToggleButton,
-  Dropdown,
-  DropdownButton,
-  ButtonGroup,
-} from "react-bootstrap";
-import Container from "react-bootstrap/Container";
-import GoogleFonts from "react-google-fonts";
-import "./myStyles.css";
+import { Container } from "react-bootstrap";
+import { contact } from "../data/profile";
 
 function HeaderImage() {
   return (
-    <div id="my-header">
-      <Row xs={12} className="justify-content-center" >
-      
-        <Col xs={5}>
-          <img
-            className="mx-auto d-block"
-            id="profile-pic"
-            height={200}
-            src={require("./../images/aiCleanedProfilePic-removebg-preview.png")}
-            alt=""
-          />
-        </Col>
-        <Col xs={6}  id="welcome-message" className="text-details">
-          <div >Hello, my name is</div>
-          <div className="my-header-text special-text" >Jeff Bledsoe</div>
-          <div>and I am a</div>
-          <div className="my-header-text special-text" >Full Stack Developer.</div>
-        </Col>
-      </Row>
-    </div>
+    <header id="top" className="hero">
+      <Container className="hero-inner">
+        <img
+          className="hero-photo"
+          src={require("./../images/headshot.jpg")}
+          alt="Jeff Bledsoe"
+        />
+        <div>
+          <p className="eyebrow">Hello, I'm</p>
+          <h1 className="hero-name">Jeff Bledsoe</h1>
+          <p className="hero-title">Operations &amp; Technology Leader</p>
+          <p className="hero-sub">
+            Former Co-Founder &amp; CTO · Kelley MBA Candidate, 2027 · {contact.location}
+          </p>
+          <div className="hero-actions">
+            <a className="btn-accent" href={contact.resume} target="_blank" rel="noreferrer">
+              Download resume
+            </a>
+            <a className="btn-ghost" href={contact.linkedin} target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+            <a className="btn-ghost" href={`mailto:${contact.email}`}>
+              Email me
+            </a>
+          </div>
+        </div>
+      </Container>
+    </header>
   );
 }
 

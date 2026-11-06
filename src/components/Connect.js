@@ -1,39 +1,26 @@
-import { Col, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import { contact } from "../data/profile";
 
 function Connect() {
   return (
-    <div className="my-sticky-footer">
-      <div className="ms-5 me-5 p-2">
-        <Row xs={12} className="justify-content-center">
-          <Col xs={2} className="text-center">
-            <a href="https://www.linkedin.com/in/jeff-bledsoe-full-stack-developer/">
-              <img
-                height={50}
-                width={50}
-                src={require("./../images/LinkedInLogo.png")}
-                alt=""
-                className="rounded"
-              />
-            </a>
-          </Col>
-          <Col xs={2} className="text-center  ms-5 me-5">
-            <a href="https://github.com/jefbledsoe">
-              <img
-                height={50}
-                width={65}
-                src={require("./../images/GitHubLogo.png")}
-                alt=""
-              />
-            </a>
-          </Col>
-          <Col xs={2} className="text-center">
-            <a href="mailto:jefbleds@outlook.com">
-              <span className="material-symbols-outlined">mail</span>
-            </a>
-          </Col>
-        </Row>
-      </div>
-    </div>
+    <footer className="site-footer">
+      <Container className="footer-inner">
+        <div>
+          <div className="mini-title">Let's connect</div>
+          <div className="mini-sub">{contact.location}</div>
+        </div>
+        <nav className="footer-links">
+          <a href={`mailto:${contact.email}`}>{contact.email}</a>
+          <a href={contact.linkedin} target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a href={contact.resume} target="_blank" rel="noreferrer">
+            Resume (PDF)
+          </a>
+        </nav>
+      </Container>
+    </footer>
   );
 }
+
 export default Connect;
