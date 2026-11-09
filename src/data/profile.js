@@ -123,7 +123,7 @@ export const education = [
     school: "Indiana University, Kelley School of Business",
     degree: "Master of Business Administration (MBA)",
     dates: "Expected 2027",
-    logo: null,
+    logo: require("../images/IUTridentTab.svg").default,
   },
   {
     school: "MIT xPro",
