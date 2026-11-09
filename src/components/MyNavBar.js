@@ -24,7 +24,7 @@ function MyNavBar() {
     >
       <Container>
         <Navbar.Brand href="#top" className="brand">
-          <Mark compact className="nav-mark" />
+          <Mark className="nav-mark" />
           Jeff Bledsoe
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="site-nav-links" />
