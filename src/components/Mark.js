@@ -1,0 +1,35 @@
+// JB column mark from the brand kit. One color (currentColor); `compact` merges
+// the two capital bars into one solid bar for sizes under 48px.
+const B =
+  "M40 21 132 36V764L40 778V800H345Q453 800 517 780Q581 760 610 719.5Q639 679 639 613Q639 469 457 429V424Q568 409 629.5 358Q691 307 691 216Q691 106 610.5 53Q530 0 393 0H40ZM353 432Q433 432 476 477Q519 522 519 605V611Q519 775 345 775H242V432ZM393 24Q478 24 525 73.5Q572 123 572 215V226Q572 317 525.5 362Q479 407 393 407H242V24Z";
+const J =
+  "M7 82Q7 115 25.5 135.5Q44 156 74 156Q98 156 112 143Q126 130 131.5 115.5Q137 101 137 97Q108 76 108 48Q108 29 120 16Q132 3 153 3Q185 3 203.5 46.5Q222 90 222 197V764L130 778V800H420V778L328 764V197Q328 127 314.5 80.5Q301 34 261 7Q221 -20 146 -20Q86 -20 46.5 6Q7 32 7 82Z";
+
+function Mark({ compact = false, title, className }) {
+  return (
+    <svg
+      className={className}
+      viewBox="-218.4 -1004 965.4 1208"
+      role={title ? "img" : undefined}
+      aria-label={title}
+      aria-hidden={title ? undefined : true}
+    >
+      <g transform="scale(1 -1)" fill="currentColor" stroke="currentColor" strokeLinejoin="miter">
+        {compact ? (
+          <rect x="-218.4" y="856" width="965.4" height="148" stroke="none" />
+        ) : (
+          <>
+            <rect x="-218.4" y="856" width="965.4" height="60" stroke="none" />
+            <rect x="-218.4" y="944" width="965.4" height="60" stroke="none" />
+          </>
+        )}
+        <rect x="-218.4" y="-204" width="965.4" height="148" stroke="none" />
+        <path d={B} strokeWidth="20.4" />
+        <rect x="-101" y="774" width="233" height="26" strokeWidth="20.4" />
+        <path d={J} transform="translate(-165.9 400) scale(0.5)" strokeWidth="40.8" />
+      </g>
+    </svg>
+  );
+}
+
+export default Mark;

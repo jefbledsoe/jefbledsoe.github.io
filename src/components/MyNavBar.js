@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { contact } from "../data/profile";
+import Mark from "./Mark";
 
 const links = [
   ["about", "About"],
@@ -23,7 +24,8 @@ function MyNavBar() {
     >
       <Container>
         <Navbar.Brand href="#top" className="brand">
-          JB
+          <Mark compact className="nav-mark" />
+          Jeff Bledsoe
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="site-nav-links" />
         <Navbar.Collapse id="site-nav-links" className="justify-content-end">

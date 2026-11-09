@@ -10,12 +10,12 @@ function HeaderImage() {
           src={require("./../images/headshot.jpg")}
           alt="Jeff Bledsoe"
         />
-        <div>
-          <p className="eyebrow">Hello, I'm</p>
+        <div className="hero-text">
           <h1 className="hero-name">Jeff Bledsoe</h1>
-          <p className="hero-title">Operations &amp; Technology Leader</p>
+          <p className="tagline">Operations · Technology · Civic&nbsp;Engagement</p>
           <p className="hero-sub">
-            Former Co-Founder &amp; CTO · Kelley MBA Candidate, 2027 · {contact.location}
+            Operations &amp; technology leader · Former Co-Founder &amp; CTO · Kelley MBA
+            Candidate, 2027 · {contact.location}
           </p>
           <div className="hero-actions">
             <a className="btn-accent" href={contact.resume} target="_blank" rel="noreferrer">
