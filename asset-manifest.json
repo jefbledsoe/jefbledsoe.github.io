@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.7224ca10.css",
-    "main.js": "/static/js/main.e2e4f872.js",
+    "main.js": "/static/js/main.081b5ed9.js",
     "static/js/787.f367fdd5.chunk.js": "/static/js/787.f367fdd5.chunk.js",
     "static/media/UpsLogo.png": "/static/media/UpsLogo.dbe67394f3ca7ee50ba4.png",
     "static/media/headshot.jpg": "/static/media/headshot.a0dab42c3cb8d2f0350e.jpg",
     "index.html": "/index.html",
     "static/media/IUTridentTab.svg": "/static/media/IUTridentTab.04eb2dc6db588505e5b41b5c5a7dc61c.svg",
     "main.7224ca10.css.map": "/static/css/main.7224ca10.css.map",
-    "main.e2e4f872.js.map": "/static/js/main.e2e4f872.js.map",
+    "main.081b5ed9.js.map": "/static/js/main.081b5ed9.js.map",
     "787.f367fdd5.chunk.js.map": "/static/js/787.f367fdd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7224ca10.css",
-    "static/js/main.e2e4f872.js"
+    "static/js/main.081b5ed9.js"
   ]
 }
