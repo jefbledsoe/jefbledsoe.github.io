@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import { education } from "../data/profile";
+import { certifications, education } from "../data/profile";
 import OrgLogo from "./OrgLogo";
 
 function Education() {
@@ -19,6 +19,10 @@ function Education() {
             </article>
           ))}
         </div>
+        <p className="mini-sub mt-3">
+          Certification:{" "}
+          {certifications.map((c) => `${c.title} (${c.issuer})`).join(" · ")}
+        </p>
       </Container>
     </section>
   );

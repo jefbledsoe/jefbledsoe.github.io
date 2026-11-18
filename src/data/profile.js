@@ -141,6 +141,10 @@ export const education = [
   },
 ];
 
+export const certifications = [
+  { title: "Six Sigma: Green Belt", issuer: "LinkedIn Learning" },
+];
+
 export const community = [
   { title: "Township Trustee Nominee", org: "Westfield Washington Township, 2026" },
   { title: "President", org: "Homeowners Association Board" },
